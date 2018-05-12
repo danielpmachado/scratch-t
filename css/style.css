@@ -1759,3 +1759,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 .social-links{
   margin-top: 2em;
 }
+
+@media (max-width: 420px){
+
+  .section-header h3{
+    font-size: 20px;
+  }
+}
