@@ -888,7 +888,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #facts {
   background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 0 0;
+  padding: 60px 0 40px 0;
   position: relative;
 }
 
@@ -918,7 +918,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #facts .counters p {
   padding: 0;
-  margin: 0 0 20px 0;
+  -margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #111;
@@ -1867,4 +1867,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #direcao2{
   padding-left: 3em;
   padding-right: 3em;
+}
+
+#cerca{
+  margin-top: -20px;
 }
