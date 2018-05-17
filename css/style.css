@@ -888,7 +888,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #facts {
   background: url("../img/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 0 0;
+  padding: 60px 0 40px 0;
   position: relative;
 }
 
@@ -918,7 +918,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #facts .counters p {
   padding: 0;
-  margin: 0 0 20px 0;
+  -margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: #111;
@@ -1349,7 +1349,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #lead {
   background: transparent;
-  padding: 60px 0;
+  padding: 20px 50px;
 }
 
 #lead .container{
@@ -1375,6 +1375,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 0;
   right: 0;
   transition: 0.2s;
+  border-radius: 5px;
 }
 
 #lead .member .member-info-content {
@@ -1424,6 +1425,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   margin: 0 2px;
 }
+
 
 /* Contact Section
 --------------------------------*/
@@ -1707,7 +1709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #lider-1{
   padding-top: 3em;
   padding-bottom: 3em;
-  padding-left: 20%;
+  padding-left: 25%;
   padding-right: 3em;
 
 }
@@ -1716,16 +1718,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 3em;
   padding-bottom: 3em;
   padding-left: 3em;
-  padding-right: 20%;
+  padding-right: 25%;
 
 }
 
-@media (max-width: 1000px)  {
+@media (max-width: 950px) {
 
   #lider-1{
     padding-top: 3em;
     padding-bottom: 3em;
-    padding-left: 10%;
+    padding-left: 15%;
     padding-right: 2em;
 
   }
@@ -1734,7 +1736,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-top: 3em;
     padding-bottom: 3em;
     padding-left: 2em;
-    padding-right: 10%;
+    padding-right: 15%;
 
   }
 
@@ -1744,15 +1746,99 @@ body.mobile-nav-active #mobile-nav-toggle {
   #lider-1{
     padding-top: 3em;
     padding-bottom: 3em;
-    padding-left: 8em;
-    padding-right: 8em;
+    padding-left: 10em;
+    padding-right: 10em;
   }
 
   #lider-2{
     padding-top: 0em;
     padding-bottom: 3em;
-    padding-left: 8em;
-    padding-right: 8em;
+    padding-left: 10em;
+    padding-right: 10em;
+  }
+}
+
+@media (max-width: 450px){
+  #lider-1{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+
+  #lider-2{
+    padding-top: 0em;
+    padding-bottom: 3em;
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+}
+
+#lider-3{
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 28%;
+  padding-right: 3em;
+
+}
+
+#lider-4{
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 3em;
+  padding-right: 28%;
+
+}
+
+@media (max-width: 950px) {
+
+  #lider-3{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 17%;
+    padding-right: 2em;
+
+  }
+
+  #lider-4{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 17%;
+
+  }
+
+}
+
+@media (max-width: 768px){
+  #lider-3{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 11em;
+    padding-right: 11em;
+  }
+
+  #lider-4{
+    padding-top: 0em;
+    padding-bottom: 3em;
+    padding-left: 11em;
+    padding-right: 11em;
+  }
+}
+
+@media (max-width: 450px){
+  #lider-3{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 7em;
+    padding-right: 7em;
+  }
+
+  #lider-4{
+    padding-top: 0em;
+    padding-bottom: 3em;
+    padding-left: 7em;
+    padding-right: 7em;
   }
 }
 
@@ -1765,4 +1851,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   .section-header h3{
     font-size: 20px;
   }
+}
+
+
+#direcao{
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 2em;
+}
+
+#photos-row{
+  padding: 30px 50px;
+}
+
+#direcao2{
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+#cerca{
+  margin-top: -20px;
 }
